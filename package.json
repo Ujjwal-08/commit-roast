@@ -12,7 +12,7 @@
     }
   },
   "bin": {
-    "commit-roast": "./bin/commit-roast.js"
+    "commit-roast": "bin/commit-roast.js"
   },
   "files": [
     "index.js",
