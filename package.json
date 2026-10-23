@@ -1,0 +1,73 @@
+{
+  "name": "commit-roast",
+  "version": "1.0.0",
+  "description": "Offline, rule-based roast of your git commit messages with a commit hygiene score",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "bin": {
+    "commit-roast": "./bin/commit-roast.js"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "src",
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "commit-messages",
+    "git-log",
+    "roast",
+    "cli",
+    "conventional-commits",
+    "code-quality",
+    "developer-tools",
+    "git-history",
+    "lint",
+    "fun"
+  ],
+  "author": "Ujjwal Dadhich",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ujjwal-08/commit-roast.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ujjwal-08/commit-roast/issues"
+  },
+  "homepage": "https://github.com/Ujjwal-08/commit-roast#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false,
+  "devDependencies": {
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/github": "^12.0.6",
+    "@semantic-release/npm": "^13.1.5",
+    "@semantic-release/release-notes-generator": "^14.1.0",
+    "semantic-release": "^25.0.3"
+  },
+  "funding": [
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/cw/BABU_ISHU"
+    },
+    {
+      "type": "individual",
+      "url": "https://www.paypal.com/ncp/payment/SECBQ62TRZZ6Y"
+    }
+  ]
+}
